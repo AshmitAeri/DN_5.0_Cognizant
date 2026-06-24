@@ -1,0 +1,6 @@
+package strategy;
+
+// Strategy Interface
+public interface PaymentStrategy {
+    void pay(double amount);
+}
